@@ -1,0 +1,49 @@
+.titulo-pantalla {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222222;
+}
+
+.panel {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #555555;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10;
+}
+
+.titulo-panel {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.etiqueta-filtro {
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.btn-guardar, .btn-cancelar, .btn-filtrar, .btn-limpiar {
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 3;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 4, 0, 0, 1);
+}
+
+.btn-guardar  { -fx-background-color: #1a5fd0; -fx-pref-height: 34; }
+.btn-cancelar { -fx-background-color: #cc2b22; -fx-pref-height: 34; }
+.btn-filtrar  { -fx-background-color: #1b6b2a; -fx-pref-height: 30; -fx-pref-width: 80; }
+.btn-limpiar  { -fx-background-color: #f0a800; -fx-text-fill: #3a2a00; -fx-pref-height: 30; }
+
+.btn-guardar:hover  { -fx-background-color: #2a70e0; }
+.btn-cancelar:hover { -fx-background-color: #e03a30; }
+.btn-filtrar:hover  { -fx-background-color: #248a37; }
+.btn-limpiar:hover  { -fx-background-color: #ffbc1a; }
+
+.text-field, .date-picker .text-field {
+    -fx-prompt-text-fill: #aaaaaa;
+}
+
+.contador {
+    -fx-text-fill: #555555;
+}
